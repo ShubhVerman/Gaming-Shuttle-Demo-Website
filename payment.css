@@ -1,0 +1,190 @@
+.card_img{
+    height: 60px;
+    width: 300px;
+}
+.Don_Tab{
+    background-color:rgb(6, 146, 71);
+    margin-top: 0px;
+    margin-bottom: 45px;
+    padding-top: 11px;
+    padding-bottom: 22px;
+}
+.Head{
+    margin-left:5px;
+}
+.nav_head{
+    color: whitesmoke;
+    margin-left: -446px;
+    margin-top: 3px;
+    font-size: 20px;
+    font-weight:300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+
+}
+.Don_Form{
+    font-size: 50px;
+    color: black;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.Don_Form:hover{
+    -webkit-text-stroke: 2px black;
+    color:whitesmoke;
+}
+
+.Heyy{
+    margin-left: 100px;
+}
+.Pay_Form{
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+.F1{
+    font-size: 29px;
+}
+.N1{
+    font-size: 21px;
+    margin-left: 20px;
+    border-color:grey;
+    border-width: 2px;
+    border-radius:7px;
+    padding-right: 430px;
+    padding-left: 5px;
+}
+.F2{
+    font-size:29px;
+}
+.N2{
+    font-size: 21px;
+    margin-left: 20px;
+    border-color:grey;
+    border-width: 2px;
+    border-radius: 7px;
+    padding-right: 430px;
+    padding-left: 5px;
+}
+.F3{
+    font-size:29px;
+}
+.N3-1{
+    font-size: 21px;
+    margin-left: 20px;
+
+}
+.F4{
+    font-size:23px;
+}
+.N4{
+    font-size: 21px;
+    margin-left: 20px;
+    border-color:grey;
+    color: grey;
+    border-width: 2px;
+    border-radius: 7px;
+    padding-right: 485px;
+    padding-left: 5px;
+
+}
+.F5{
+    font-size: 25px;
+}
+.N5{
+    font-size: 21px;
+    margin-left: 95px;
+    border-color:grey;
+    border-width: 2px;
+    border-radius: 7px;
+    padding-right: 430px;
+    padding-left: 5px;
+}
+.F6{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.F7{
+    font-size: 23px;
+    margin-top: -11px;
+}
+.F8{
+    font-size: 25px; 
+}
+.N8{
+    font-size: 21px;
+    margin-left: 20px;
+    border-color:grey;
+    border-width: 2px;
+    border-radius: 7px;
+    padding-right: 326px;
+    padding-left: 5px;
+}
+.F9{
+    font-size: 25px;
+}
+.N9{
+    font-size: 21px;
+    margin-left: 20px;
+    border-color:grey;
+    border-width: 2px;
+    border-radius: 7px;
+    padding-right: 430px;
+    padding-left: 5px;
+}
+.F10{
+    font-size: 25px;
+}
+.N10{
+    font-size: 21px;
+    margin-left: 60px;
+    border-color: gray;
+    color: grey;
+    border-width: 2px;
+    border-radius: 7px;
+    padding-left: 5px;
+
+}
+.D1{
+    color: black;
+}
+.F11{
+    font-size: 25px;
+}
+.N11{
+    font-size: 21px;
+    margin-left: 16px;
+    border-color: gray;
+    color: grey;
+    border-width: 2px;
+    border-radius: 7px;
+    padding-left: 5px;
+
+}
+
+.F12{
+    font-size: 25px;
+}
+.N12{
+    font-size: 21px;
+    margin-left: 20px;
+    border-color:grey;
+    color: grey;
+    border-width: 2px;
+    border-radius: 7px;
+    padding-right: -12px;
+    padding-left: 5px;
+
+}
+.F13{
+    font-size: 25px;
+}
+.N13{
+    font-size: 21px;
+    margin-left: 26px;
+    border-color:grey;
+    border-width: 2px;
+    border-radius: 7px;
+    padding-right: -12px;
+    padding-left: 5px;
+}

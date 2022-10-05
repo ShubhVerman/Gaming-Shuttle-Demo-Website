@@ -1,0 +1,162 @@
+<!--Note :-                                                                                                                                                                  -->
+<!--Gaming Shuttle Made by SHUBH VERMA (An Aspirant Web Developer)-->
+<!-- This is demo website and it is just to show my skill and work  not for any real world production -->
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="homepage.css">
+  <link rel="stylesheet" href="contact.css">  
+  <link rel="stylesheet" href="payment.css"> 
+</head>
+<body>
+    <nav style="background-color:rgb(6, 146, 71)">
+        <img src="images/Shubh insta DP-modified.png" class="logo">
+        <span class="Head"><h2>Gaming Shuttle |</h2></span>
+        <span><h3 class="nav_head">By Verman</h3></span>
+        <ul>
+            <li><a href="C:\Users\SHUBH VERMA\OneDrive\Desktop\Gaming Website\Home_Page-1.html" target="_blank" class="nav_b">HOME</a></li>
+            <li><a href="C:\Users\SHUBH VERMA\OneDrive\Desktop\Gaming Website\Repack_list.html" target="_blank" class="nav_b">REPACK LISTS</a></li>
+            <li><a href="C:\Users\SHUBH VERMA\OneDrive\Desktop\Gaming Website\donate_me.html" target="_blank" class="nav_b">DONATE</a></li>
+            <li><a href="C:\Users\SHUBH VERMA\OneDrive\Desktop\Gaming Website\Contact_Me.html" target="_blank" class="nav_b">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <span class="content">
+        <h1><center>Call for Donations</center></h1>
+    </span>
+    <section class="text-gray-600 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="lg:w-4/5 mx-auto flex flex-wrap">
+            <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://tr.rbxcdn.com/a1afd010b745b7e3cc6d55f090a905ad/768/432/Image/Png">
+            <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+              <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">Running Website Cost me Money</h1>
+              <div class="flex mb-4">
+              </div>
+              <p class="leading-relaxed">Once in a while, this day comes. The day where I have to remind you that making repacks and running this site costs me money.The last time I made a similar post was almost two years ago, and donations coming my way covered my expenses on hosting, seedboxes, domain, VPNs, and other related stuff.
+
+                Last year I rented a very powerful RDP (remote machine), which now allows me to repack a huge number of games – you can see it by the total count of posts each month.That’s why I remind you that if you have digital money of any amount, you can share some money with me to help maintain the site and allow me to continue the service that you rely on.</p>
+              <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
+                    <span class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4" viewBox="0 0 24 24">
+                        <path d="M6 9l6 6 6-6"></path>
+                      </svg>
+                    </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="Don_Tab">
+        <h1 class="Don_Form"><CENTER> DONATION FORM </CENTER></h1>
+    </div>
+
+    <form action="backend.php">
+        <div class="Heyy">
+         <b class="F1">First Name :</b><input type="text" class="N1" placeholder="Enter your FirstName"> 
+         <br>
+         <br>
+         <b class="F2">Sur Name : </b><input type="text" class="N2" placeholder="Enter your SurName">
+         <br>
+         <h4 class="F3"><b>Gender</b></h4>
+         <input type="radio"  name="Gender" id="Male">
+         <label for="Male" class="N3-1">Male</label>
+
+         <input type="radio" name="Gender" id="Female">
+         <label for="Female"class="N3-1">Female</label>
+
+         <input type="radio" name="Gender" id="Others">
+         <label for="Others"class="N3-1">Others</label>
+         <br>
+         <br>
+         <b class="F4">Date of Birth : </b><input type="Date" class="N4" name="DOB" id="DOB">
+         <br>
+         <br>
+         <b class="F5">Email :</b> <input type="email" class="N5"placeholder="Enter Email-Id" name="Email" id="Email">
+         <br>
+
+        <div>
+
+            <H2 class="F6"><b>We Accept</b></H2>
+            <img class="card_img" src="https://www.seekpng.com/png/detail/212-2128296_visa-card-logo-png-visa-mc-mastercard-visa.png" alt="Card_Provider">
+            <br>
+            <h2 class="F7"><b>Card Details</b></h2>
+            <b class="F8">Account Holder Name : </b><input type="text" class="N8"placeholder="Enter your Name">
+            <br>
+            <br>
+            <b class="F9">Card Number : </b><input type="number" class="N9" placeholder="Enter Card Number">
+            <br>
+            <br>
+            <b class="F10">Card Type : </b><select name="card_type" class="N10" id="card_type">
+
+                <option value="card_type">Select your Card Type</option>
+                <option value="Debit" class="D1">Debit</option>
+                <option value="Credit" class="D1">Credit</option>
+                <option value="Prepaid" class="D1">Prepaid</option>
+                <option value="Electronic" class="D1">Electronic</option>
+            </select>
+            <br>
+            <br>
+            <b class="F11">Card Provider : </b><select name="card_pro" class="N11" id="card_pro">
+
+                <option value="card_type">Select your Card Provider</option>
+                <option value="Debit"class="D1">MasterCard</option>
+                <option value="Credit"class="D1">Visa</option>
+                <option value="Prepaid"class="D1">American Express</option>
+                <option value="Electronic"class="D1">Rupay</option>
+                <option value="Electronic"class="D1">Discovery</option>
+            </select>
+            <br>
+            <br>
+            <b class="F12">CVV : </b><input type="password" class="N12" placeholder="Enter CVV">
+            <br>
+            <br>
+            <b class="F13">PIN : </b><input type="password" class="N13" placeholder="Enter PIN">
+        </div>
+
+        <footer class="text-gray-600 body-font">
+          <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+              <span class="ml-3 text-xl">Gaming Shuttle</span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Gaming Shuttle —
+              <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@shubh</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+              <a class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </footer>
+
+
+
+
+    </form>
+    </body>
+    </html>
